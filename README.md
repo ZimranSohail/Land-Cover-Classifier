@@ -119,12 +119,12 @@ confidence, and class probabilities.
 
 ### Application screenshot
 
-Save a screenshot of the app interface as
+Application Interface:
 `screenshots/app_interface.png`.
 
 ![Streamlit application interface](screenshots/app_interface.png)
 
-### Example: Lake image prediction
+### Example: Original Example from google earth screenshot. Lake image prediction
 
 Save the lake prediction screenshot as
 `screenshots/lake_prediction.png`.
