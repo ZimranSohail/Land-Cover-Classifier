@@ -1,0 +1,35 @@
+{
+    "model_architecture": "ResNet18",
+    "num_classes": 5,
+    "class_names": [
+        "Bare_Sparse_Vegetation",
+        "Built_Up",
+        "Cropland",
+        "Permanent_Water",
+        "Tree_Cover"
+    ],
+    "input_size": [
+        128,
+        128
+    ],
+    "input_channels": 3,
+    "input_color_order": "RGB",
+    "input_value_range_before_normalization": [
+        0,
+        1
+    ],
+    "normalization": {
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    },
+    "checkpoint_source": "resnet18_128_finetuned_best.pth",
+    "test_accuracy": 0.970027
+}
