@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Datasets and generated data
+data/
+datasets/
+processed_data/
+*.tfrecord
+*.tfrecords
+
+# Training outputs and intermediate checkpoints
+*_history.csv
+*_best.pth
+*.ckpt
+runs/
+outputs/
