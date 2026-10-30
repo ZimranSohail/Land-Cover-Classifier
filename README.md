@@ -230,7 +230,7 @@ Land-Cover-Classifier/
 ## Limitations
 
 - **Geographic and temporal scope.** All patches come from Pakistan and from a single year (2021). Performance in other countries, climates, or years has not been tested.
-- **Labels are not field-verified.** Labels come from ESA WorldCover, which is itself a model-derived product. A patch is kept if at least 70% of its pixels match the label, so patches can contain up to 30% of other classes. Reported accuracy measures agreement with WorldCover, not independent ground truth.
+- **Labels are not field-verified.** Labels come from ESA WorldCover, which is itself a model-derived product. A patch is kept if at least 70% of its pixels match the label, so patches can contain up to 30% of other classes.From a real-world perspective this is only a slight limitation because in a city trees can be alongside buildings so there are many possibilities for 2 or more types of lands in one image. Reported accuracy measures agreement with WorldCover, not independent ground truth.
 - **Annual median composites.** Training images are cloud-masked yearly medians, not single-date images. Single-date images and screenshots can look quite different (season, haze, color processing).
 - **Resolution.** Patches have about 64 × 64 native pixels, upsampled to 128 × 128. Small features are not resolved.
 - **RGB only.** Near-infrared and other bands were not used, which may limit separation of Cropland and Tree Cover.
