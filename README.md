@@ -1,6 +1,7 @@
 # Satellite-Based Land-Cover Classification Using Transfer Learning
 
-Classifies Sentinel-2 satellite imagery into five land-cover categories using ResNet-18, trained on patches from across Pakistan and served through a Streamlit web app.
+Classifies Sentinel-2 satellite imagery into five land-cover categories using ResNet-18, trained on patches from across Pakistan and served through a Streamlit web app.     
+Note: The dataset was produced by the author of this repo using Google Earth API
 
 [**Live demo**](https://satellite-landcover-classifier.streamlit.app/) · [Dataset on Kaggle](https://www.kaggle.com/datasets/zimransohail/satellite-land-cover-classification) · [Dataset on Google Drive](https://drive.google.com/drive/folders/1pbd0O_leqiqgH5Fl_mIwgITlKaM3ycgP?usp=sharing)
 
