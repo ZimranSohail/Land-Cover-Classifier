@@ -3,7 +3,11 @@
 A deep learning project that classifies satellite imagery into five
 land-cover categories using ResNet-18, transfer learning, and a
 Streamlit web application.
-
+Deployed Application Link: satellite-landcover-classifier.streamlit.app/
+Dataset link: drive.google.com/drive/folders/1pbd0O_leqiqgH5Fl_mIwgITlKaM3ycgP?usp=sharing
+Dataset kaggle link: Work in progress
+Dataset huggingface link: Work in progress
+Youtube Link: Work in progress
 ## Overview
 
 This project uses Sentinel-2 RGB imagery and ESA WorldCover labels to
